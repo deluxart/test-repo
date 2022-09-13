@@ -1,5 +1,5 @@
 {
-  "name": "hack-less",
+  "name": "web",
   "private": true,
   "scripts": {
     "dev": "next dev",
