@@ -1,0 +1,17 @@
+@import '../../../look/styles/theme/colors';
+
+.header {
+    flex: 0 0 auto;
+    position: fixed;
+    left: 15px;
+    width: calc(100% - 30px);
+    z-index: 3;
+
+    &__row {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        grid-gap: 20px;
+        align-items: center;
+        height: 81px;
+    }
+}
