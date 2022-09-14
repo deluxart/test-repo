@@ -52,6 +52,7 @@ strong {
 
 
 .container {
+  height: calc(100vh - 169px);
   max-height: 100vh;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
@@ -61,29 +62,58 @@ strong {
     display: grid;
     justify-content: center;
     align-items: center;
+    height: calc(100vh - 169px);
+    //max-height: calc(100vh - 169px);
   }
 }
 
 .panel {
   scroll-snap-align: start;
-  height: 100vh;
+  //height: 100vh;
+  //max-height: calc(100% - 169px);
 }
 
 .red {
   background-color: #cf3535;
   background-image: none;
+  //height: calc(100vh - 240px);
 }
 
 .blue {
   background-color: #3570cf;
   background-image: none;
+  //height: calc(100vh - 160px);
+}
+
+.red2 {
+  background-color: #cf3535;
+  background-image: none;
+  //height: calc(100vh - 320px);
+}
+
+.blue2 {
+  background-color: #3570cf;
+  background-image: none;
+  //height: calc(100vh - 260px);
 }
 
 .orange {
   background-color: #e57825;
   background-image: none;
+  //height: calc(100vh - 420px);
 }
 
 .panel p {
   font-size: 32px;
+}
+
+
+.wrapper {
+  padding: 15px 15px 0;
+
+  &__cont {
+    height: calc(100vh - 15px);
+    overflow: hidden;
+    position: relative;
+  }
 }

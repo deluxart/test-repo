@@ -55,31 +55,43 @@ const Home = () => {
     <div className={s.home}>
       <div className="container sections">
         <section className="panel blue" id="sec_1">
-          <h1>Pair with CSS Scroll Snapping</h1>
+          <h1>Section #1</h1>
         </section>
 
         <section className="panel orange" id="sec_2">
-          <p>This element will spin.</p>
+          <p>Section #2</p>
         </section>
 
         <section className="panel red" id="sec_3">
-          <p>This background color will change</p>
+          <p>Section #3</p>
         </section>
 
-        <section className="panel blue yoyo"  id="sec_4">
-          <p>Yoyo Text!</p>
+        <section className="panel blue2 yoyo"  id="sec_4">
+          <p>Section #4</p>
         </section>
 
-        <section className="panel blue" id="sec_5">
-          <p>Pair with CSS Scroll Snapping</p>
+        <section className="panel red" id="sec_5">
+          <p>Section #5</p>
         </section>
 
         <section className="panel orange" id="sec_6">
-          <p>This element will spin.</p>
+          <p>Section #6</p>
         </section>
 
-        <section className="panel red" id="sec_7">
-          <p>This element will spin.</p>
+        <section className="panel red2" id="sec_7">
+          <p>Section #7</p>
+        </section>
+
+        <section className="panel blue2 yoyo"  id="sec_8">
+          <p>Section #8</p>
+        </section>
+
+        <section className="panel red" id="sec_9">
+          <p>Section #9</p>
+        </section>
+
+        <section className="panel orange" id="sec_10">
+          <p>Section #10</p>
         </section>
       </div>
     </div>

@@ -4,7 +4,7 @@
     top: 82px;
     //height: 100%;
     overflow-y: scroll;
-    height: 100vh;
-    scroll-snap-points-y: repeat(100vh);
+    //height: 100vh;
+    //scroll-snap-points-y: repeat(100vh);
     scroll-snap-type: y mandatory;
 }

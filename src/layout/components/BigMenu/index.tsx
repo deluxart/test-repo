@@ -33,6 +33,15 @@ const BigMenu = ({ isActive }: BigMenuProps) => {
           <li>
             <a href={'#sec_7'}>Section #7</a>
           </li>
+          <li>
+            <a href={'#sec_8'}>Section #8</a>
+          </li>
+          <li>
+            <a href={'#sec_9'}>Section #9</a>
+          </li>
+          <li>
+            <a href={'#sec_10'}>Section #10</a>
+          </li>
         </ul>
       </div>
       <div className={cn(s.bgNav, isActive && s.active)} />
